@@ -1,0 +1,30 @@
+# --- Environnement Virtuel ---
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# --- Données (Très important pour ne pas saturer Git) ---
+# On ignore les données brutes et traitées car elles sont volumineuses
+data/raw/*.csv
+data/processed/*.csv
+
+# Si tu veux quand même garder la structure des dossiers sur Git
+# mais sans les fichiers, laisse ces lignes actives :
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Sorties et Résultats ---
+# On ignore les graphiques générés et les exports de prédiction
+outputs/*.png
+outputs/*.csv
+!outputs/.gitkeep
+
+# --- Système et IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# --- Streamlit ---
+.streamlit/config.toml
