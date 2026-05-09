@@ -42,4 +42,3 @@ PROJET_RIZ_AFRIQUE/
 ├── dashboard.py         # Interface utilisateur Streamlit
 ├── .env                 # Clés API (non inclus dans Git)
 └── requirements.txt     # Dépendances du projet
-```
