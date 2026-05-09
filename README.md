@@ -42,3 +42,18 @@ PROJET_RIZ_AFRIQUE/
 ├── dashboard.py         # Interface utilisateur Streamlit
 ├── .env                 # Clés API (non inclus dans Git)
 └── requirements.txt     # Dépendances du projet
+```
+
+## Insights Stratégiques (Projections 2030)
+
+L'analyse des données massives révèle des pôles de dépendance critique dans la zone CEDEAO :
+
+### 🌾 Top Importateurs : Riz & Céréales
+* **Bénin** : Se positionne comme le premier hub d'importation avec une projection dépassant les **7,5M de tonnes** de riz, confirmant son rôle de plateforme de réexportation régionale.
+* **Sierra Leone & Ghana** : Présentent une croissance linéaire forte, signalant un besoin urgent de renforcement des politiques d'autosuffisance locale.
+
+### Impact Budgétaire (Toutes denrées)
+* **Facture Globale** : Le coût des importations pour le riz seul au Bénin pourrait atteindre **3,7 milliards USD** d'ici 2030.
+* **Produits Transformés** : Pour le **Sucre** et les **Boissons**, le Togo et la Côte d'Ivoire affichent les trajectoires de dépenses les plus volatiles, nécessitant une surveillance accrue de l'inflation importée.
+
+> **Note :** Les volumes à "0" pour certaines catégories (Sucre, Boissons) soulignent un manque de déclaration des poids par les douanes nationales, déplaçant l'indicateur de performance vers la **valeur monétaire (M$)** pour ces produits.
